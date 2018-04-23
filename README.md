@@ -1,22 +1,23 @@
 # Taco Shop Website
 
-## Project Title:
-This project is being created to assist the restaurant Taco Shop in San Bernardino,
-CA with attracting customers to their location.
+## Project Title/Synopsis:
+This project has been created to assist the restaurant known as Taco Shop. Taco
+Shop is located at 1331 Kendall Dr. #7, San Bernardino, CA 92407.
 
 ## Getting Started:
-In order to begin this project, you would need to first install [Ruby](https://www.ruby-lang.org/en/downloads/) on your machine. Once installed,
-utilize Ruby's package manager to download SASS. Then you can update your device's
-path to allow for use of the command sass.
+In order to create this project or a similar one, you should follow these steps:
+- [] Install a Text Editor (Ex. [Atom](https://atom.io/))
+- [] Install [Ruby](https://www.ruby-lang.org/en/downloads/), which is needed for using SASS
+     - Utilize Ruby's package manager to download SASS
+     - Update your computer's PATH variable to include the absolute path to the SASS directory
+- [] Create a project directory on your computer with the appropriate architecture to implement a website online.
 
 ## Prerequisites:
 You will need the following to begin working on this project:
-- [Ruby w/ SASS](https://www.ruby-lang.org/en/downloads/)
-- HTML5, CSS3, JS
-- Your favorite text editor
+- An electronic device capable of meeting each of the hardware requirements associated with the programs listed above.
 
 ## Give Examples:
-Examples are still to come.
+There are no examples to provide at this time.
 
 ## Built With:
 - HTML5
