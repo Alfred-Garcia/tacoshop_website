@@ -1,19 +1,19 @@
-#Taco Shop Website
+# Taco Shop Website
 
-##Project Title
+## Project Title:
 This project is being created to assist the restaurant Taco Shop in San Bernardino,
 CA with attracting customers to their location.
 
-##Getting Started
+## Getting Started:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-##Prerequisites
+## Prerequisites:
 You will need the following to begin working on this project:
 - [Ruby w/ SASS](https://www.ruby-lang.org/en/downloads/)
 - HTML5, CSS3, JS
 - Your favorite text editor
 
-##Give examples
+## Give examples:
 Installing
 A step by step series of examples that tell you have to get a development env running
 
@@ -39,24 +39,24 @@ Give an example
 Deployment
 Add additional notes about how to deploy this on a live system
 
-##Built With
-- html
-- css (SASS)
-- javascript
+## Built With:
+- HTML5
+- CSS3 (SASS)
+- Javascript
 
-##Contributing
+## Contributing:
 Contributions are not currently being sought for this project.
 
-##Versioning
+## Versioning:
 This project does not currently require the use of versioning.
 
-##Author
+## Author:
 1. Alfred P. Garcia, M.S
 
-##License
+## License:
 This project is currently not licensed.
 
-##Acknowledgments
+## Acknowledgments:
 I would like to acknowledge the following websites for providing me with inspiration:
-[Olivia's Mexican Restaurant](http://www.oliviasmexicanrestaurant.com/home)
-[Las Fuentes Mexican Grill](http://www.lasfuentesmexicangrill.com/index.html)
+- [Olivia's Mexican Restaurant](http://www.oliviasmexicanrestaurant.com/home)
+- [Las Fuentes Mexican Grill](http://www.lasfuentesmexicangrill.com/index.html)
