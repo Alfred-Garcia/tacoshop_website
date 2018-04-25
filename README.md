@@ -6,11 +6,11 @@ Shop is located at 1331 Kendall Dr. #7, San Bernardino, CA 92407.
 
 ## Getting Started:
 In order to create this project or a similar one, you should follow these steps:
-- [] Install a Text Editor (Ex. [Atom](https://atom.io/))
-- [] Install [Ruby](https://www.ruby-lang.org/en/downloads/), which is needed for using SASS
+- [ ] Install a Text Editor (Ex. [Atom](https://atom.io/))
+- [ ] Install [Ruby](https://www.ruby-lang.org/en/downloads/), which is needed for using SASS
      - Utilize Ruby's package manager to download SASS
      - Update your computer's PATH variable to include the absolute path to the SASS directory
-- [] Create a project directory on your computer with the appropriate architecture to implement a website online.
+- [ ] Create a project directory on your computer with the appropriate architecture to implement a website online.
 
 ## Prerequisites:
 You will need the following to begin working on this project:
