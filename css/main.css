@@ -1,5 +1,94 @@
-h1 {
-  font: 150% Helvetica, sans-serif;
-  background-color: lightblue; }
+body {
+  font: 100% Arial, Helvetica, sans-serif;
+  margin: 0; }
+
+#main_header {
+  background-color: black; }
+
+#mobile_header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: .313em .750em; }
+  #mobile_header h1 {
+    font: 1.75rem Oswald, Arial, Helvetica, sans-serif;
+    margin: 0; }
+  #mobile_header .fa-bars {
+    font-size: 1.75rem;
+    padding-top: .188em;
+    color: white; }
+
+#mobile_nav_modal {
+  display: none;
+  background-color: black;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1; }
+  #mobile_nav_modal h2 {
+    font: 1.75rem Oswald, Arial, Helvetica, sans-serif;
+    color: #d9ffb3;
+    margin: 0;
+    padding: .179em .357em;
+    border-bottom: 1px solid #d9ffb3; }
+  #mobile_nav_modal .fa-home, #mobile_nav_modal .fa-file, #mobile_nav_modal .fa-question, #mobile_nav_modal .fa-plus {
+    color: white; }
+  #mobile_nav_modal q {
+    font: 1.5rem Oswald, Arial, Helvetica, sans-serif;
+    display: block;
+    color: #d9ffb3;
+    text-align: center; }
+  #mobile_nav_modal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  #mobile_nav_modal li {
+    display: block; }
+  #mobile_nav_modal a {
+    color: #e60000;
+    font: 1.75rem Oswald, Arial, Helvetica, sans-serif;
+    text-decoration: none; }
+
+.red_text {
+  color: #CC0000; }
+
+.green_text {
+  color: #00CC00; }
+
+.image_slider {
+  position: relative; }
+
+#main_footer {
+  background-color: #e60000;
+  color: white;
+  position: relative; }
+  #main_footer h3 {
+    background-color: #23553A; }
+  #main_footer::before {
+    content: '';
+    background-color: #FC2935;
+    position: absolute;
+    width: 50px;
+    transform: rotate(45deg) translate(-50%, 10px);
+    z-index: -1;
+    height: 50px;
+    top: -10px;
+    left: 50%; }
+
+#copyright_container {
+  border-top: 5px groove #66CD00;
+  background-color: black;
+  padding: 10px 0; }
+  #copyright_container small {
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 1.5; }
+
+/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
