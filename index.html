@@ -13,60 +13,94 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Gugi|Oswald">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <script src="../javascript/#" defer></script>
+    <script src="../scripts/main.js" defer></script>
     <noscript>It looks like your Browser doesn't support Javascript!</noscript>
   </head>
 
   <body>
-    <div class="image_slider">
-      <header id="main_header">
-        <div id="mobile_header">
-          <h1><span class="red_text">Taco Shop</span><span class="green_text"> Mexican Grill</span></h1>
-          <span class="fas fa-bars"></span>
+    <header class="main_header">
+      <div class="mob_header">
+        <h1><span class="red_text">Taco Shop</span><span class="green_text"> Mexican Grill</span></h1>
+        <span class="fas fa-bars"></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home"><span class="fa fa-home"></span> Home</a></li>
+          <li><a href="../pages/menu.html" title="Menu"><span class="fas fa-utensils"></span> Menu</a></li>
+          <li><a href="#" title="Discounts"><span class="fas fa-dollar-sign"></span> Discounts</a></li>
+          <li><a href="../pages/about.html" title="About Us"><span class="fa fa-question"></span> About Us</a></li>
+        </ul>
+      </nav>
+  </header>
+
+
+  <section class="mob_section" id="mob_home_section">
+    <a href="index.html" title="Home">
+      <div class="mob_nav_txt">
+        <span class="fas fa-home"></span>
+        <p>Home</p>
+      </div>
+    </a>
+  </section>
+
+  <section class="mob_section" id="mob_menu_section">
+    <a href="../pages/menu.html" title="Menu">
+      <div class="mob_nav_txt">
+        <span class="fas fa-file"></span>
+        <p>Menu</p>
+      </div>
+    </a>
+  </section>
+
+  <section class="mob_section" id="mob_about_section">
+    <a href="../pages/about.html" title="About Us">
+      <div class="mob_nav_txt">
+        <span class="fas fa-question"></span>
+        <p>About Us</p>
+      </div>
+    </a>
+  </section>
+
+  <section class="mob_section" id="mob_info_section">
+    <a href="#" title="More Info">
+      <div class="mob_nav_txt">
+        <span class="fas fa-plus"></span>
+        <p>More Info</p>
+      </div>
+    </a>
+  </section>
+
+  <div id="mobile_contact_buttons">
+    <a href="tel:909-543-9312"><span class="fa fa-phone"></span><a>
+    <a href="tel:909-543-9312"><span class="fa fa-phone"></span><a>
+  </div>
+
+
+
+
+  <footer class="main_footer">
+    <div class="ft_sections_container">
+      <section>
+        <h3>Contact Us</h3>
+        <p><i class="fa fa-phone"></i> Phone: <a href="tel:1-847-555-5555">(909) 543-9312</a></p>
+        <p><i class="fa fa-home"></i> Address:<a href="https://goo.gl/maps/KyBf1ZJQDNB2">1331 Kendall Dr #7, San Bernardino, CA 92407</a></p>
+      </section>
+      <section>
+        <h3>Business Hours</h3>
+      </section>
+      <section>
+        <h3>Follow Us</h3>
+        <div class="social_links">
+          <a href=""><span class="fab fa-facebook-square"></span></a>
+          <a href=""><span class="fab fa-twitter-square"></span></a>
         </div>
-        <div id="mobile_nav_modal">
-          <h2>Navigation Menu</h2>
-          <nav>
-            <ul>
-              <li><span class="fas fa-home"></span><a class="active_page" title="Home" href="index.html"> Home</a></li>
-              <li><span class="fas fa-file"></span><a title="Menu" href="../pages/menu.html"> Menu</a></li>
-              <li><span class="fas fa-question"></span><a title="About Us" href="../pages/about.html"> About Us</a></li>
-              <li><span class="fas fa-plus"></span><a title="More Info" href="#"> More Info</a></li>
-            </ul>
-          </nav>
-          <q>Delicious food is just a click away!</q>
-        </div>
-      </header>
+      </section>
     </div>
+    <div class="copyright_container">
+      <small>&copy; <span class="year"></span> Taco Shop Mexican Grill. All Rights Reserved.</small>
+      <small>Created by Alfred Garcia</small>
+    </div>
+  </footer>
 
-    <a href="tel:909-543-9312"><span class="fa fa-phone"></span></a>
-
-    <p> Middle content </p>
-
-
-
-
-
-
-    <footer id="main_footer">
-      <div class="ft_sections_container">
-        <section>
-          <h3>Contact Us</h3>
-          <p><i class="fa fa-phone"></i> Phone: <a href="tel:1-847-555-5555">(909) 543-9312</a></p>
-          <p><i class="fa fa-home"></i> Address:<a href="https://goo.gl/maps/KyBf1ZJQDNB2">1331 Kendall Dr #7, San Bernardino, CA 92407</a></p>
-        </section>
-        <section>
-          <h3>Business Hours</h3>
-        </section>
-        <section>
-          <h3>Social Media</h3>
-        </section>
-      </div>
-      <div id="copyright_container">
-        <small>&copy; Copyright <span class="year"></span> Taco Shop Mexican Grill. All Rights Reserved.</small>
-        <small>Created by Alfred Garcia</small>
-      </div>
-    </footer>
   </body>
-
 </html>
