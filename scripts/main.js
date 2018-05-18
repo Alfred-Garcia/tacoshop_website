@@ -1,12 +1,12 @@
-const menu_bars = document.getElementsByClassName('fa-bars')[0];
-const main_nav = document.getElementsByTagName('nav')[0];
+const menuBars = document.querySelector('.fa-bars');
+const siteNav = menuBars.nextElementSibling;
 
-menu_bars.addEventListener('click', toggleDisplay);
+menuBars.addEventListener('click', siteNavReveal);
+siteNav.addEventListener('mouseleave', siteNavHide);
 
-function toggleDisplay() {
-  main_nav.classList.toggle("hidden");
+function siteNavReveal() {
+  siteNav.classList.toggle('reveal');
 }
-
-
-console.log(menu_bars);
-console.log(main_nav);
+function siteNavHide() {
+  siteNav.classList.remove('reveal');
+}

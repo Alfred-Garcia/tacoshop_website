@@ -1,0 +1,19 @@
+/*------------------------------------------------------------------------------*
+  THEME STYLES
+*------------------------------------------------------------------------------*/
+/* Ordering of CSS Properties:
+1) Positioning, 2) Display and Box Model, 3) Color, 4) Text, 5) Other
+*/
+
+.deal-name {
+  margin: 0 0 .278em;
+  font-family: "Amatic SC", $fontStack;
+  font-size: 2.25rem;
+}
+
+.cta-heading {
+  margin: 0 0 .313em;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}

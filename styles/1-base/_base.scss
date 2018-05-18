@@ -1,0 +1,60 @@
+/*------------------------------------------------------------------------------*
+  BASE STYLES
+*------------------------------------------------------------------------------*/
+/* Ordering of CSS Properties:
+1) Positioning, 2) Display and Box Model, 3) Color, 4) Text, 5) Other
+*/
+body {
+  margin: 0;
+  background-color: $lightWhite;
+  font: 100% $fontStack;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: Oswald, $fontStack;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  li {
+    padding: .3125em 0;
+    a {
+      display: block;
+    }
+  }
+}
+
+button {
+  border: 2px ridge $myBlack;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+a {
+  text-decoration: none;
+  &:link, &:visited {
+    color: black;
+    cursor: pointer;
+  }
+  &:hover, &:active {
+    font-weight: bold;
+  }
+}

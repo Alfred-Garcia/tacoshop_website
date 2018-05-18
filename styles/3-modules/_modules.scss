@@ -1,0 +1,296 @@
+/*------------------------------------------------------------------------------*
+  MODULES STYLES
+*------------------------------------------------------------------------------*/
+/* Ordering of CSS Properties:
+1) Positioning, 2) Display and Box Model, 3) Color, 4) Text, 5) Other
+*/
+
+.mod-site-nav-cont {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  .fa-bars {
+    padding-top: .179em;
+    color: $myBlack;
+    font-size: 1.75rem;
+    cursor: pointer;
+  }
+}
+
+.mod-site-nav-menu {
+  position: absolute;
+  top: calc(100% + .125em);
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: none;
+}
+
+.nav-menu-list-item {
+  border-bottom: .125em solid $lightGray;
+  background-color: $lighterGray;
+  text-align: center;
+  animation: nav-dropin 500ms ease-in-out;
+  .fa-home, .fa-utensils, .fa-dollar-sign, .fa-question {
+    color: $darkRed;
+    font-size: 1.25rem;
+  }
+  a {
+    font-size: 1.25rem;
+    font-family: Oswald, $fontStack;
+  }
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#slide-one {
+  background: url("../images/food2.jpg") center/cover;
+}
+
+#slide-two {
+  background: url("../images/food3.jpg") left center/cover;
+}
+
+#slide-three {
+  background: url("../images/store.jpg") center/cover;
+}
+
+.deal {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  z-index: 1;
+  width: 140px;
+  padding: .625em;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  color: white;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+}
+
+.deal-name {
+  margin: 0 0 .278em;
+  font-family: "Amatic SC", $fontStack;
+  font-size: 2.25rem;
+}
+
+.deal-price {
+  margin: 0 0 .3125em;
+  font: 2rem Shrikhand, $fontStack;
+}
+
+.deal-disclaimer {
+  display: block;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(0,0,0,.8);
+  color: rgba(255,255,255,.8);
+  font-size: 2rem;
+  &:hover {
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+  }
+}
+
+.fa-chevron-left {
+  left: 2%;
+  &:hover {
+    transform: translateX(-4px) translateY(-50%);
+  }
+}
+
+.fa-chevron-right {
+  right: 2%;
+  &:hover {
+    transform: translateX(4px) translateY(-50%);
+  }
+}
+
+.cta-section {
+  height: 200px;
+}
+
+#cta-phone-section-img {
+  background: url("../images/food5.jpg") center/cover;
+  border-bottom: .125em solid #B6B6B6;
+}
+
+#cta-dir-section-img {
+  background: url("../images/directions2.jpg") center/cover;
+}
+
+.cta-content {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  text-align: center;
+}
+
+.cta-heading {
+  margin: 0 0 .313em;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+
+
+#cta-btn-phone {
+  color: white;
+}
+
+#cta-btn-dir {
+  color: white;
+}
+
+
+.cta-btn-link {
+  align-self: center;
+  background-color: $lightGreen;
+  border-color: white;
+  &:active {
+    transform: translateY(4px);
+  }
+  //font: 1.10rem Oswald, $fontStack;
+  a {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+
+
+@keyframes nav-dropin {
+  0% {opacity: 0; transform: rotateX(-90deg); transform-origin: top center;}
+  100% {opacity: 1; transform: rotateX(0deg);}
+}
+
+
+
+
+
+//.cta-section {
+  //height: 200px;
+  //.cta-content {
+    //display: flex;
+    //flex-flow: column nowrap;
+    //text-align: center;
+    //justify-content: center;
+    //width: 100%;
+    //height: 100%;
+    //background: rgba(0,0,0,.6);
+    //text-align: center;
+  //}
+  .fa-phone, .fa-car {
+    margin-right: 10px;
+  }
+//}
+
+
+
+
+#mob_nav_modal {
+  display: none;
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  h2 {
+    font: 1.75rem;
+    color: green;
+    padding: .179em .357em;
+    border-bottom: 1px solid green;
+  }
+  .fa-home, .fa-file, .fa-question, .fa-plus {
+    color: white;
+  }
+  q {
+    font: 1.5rem Oswald, $fontStack;
+    display: block;
+    color: green;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: block;
+  }
+  //a {
+    //color: red;
+    //font: 1.75rem Oswald, $fontStack;
+    //text-decoration: none;
+  //}
+}
+
+.mob_section {
+  height: 300px;
+  margin: 10px;
+  border: 5px solid black;
+  position: relative;
+  background: rgba(0,0,0,.2);
+}
+
+.mob_nav_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font: 2rem Oswald, $fontStack;
+  p {
+    margin: 0;
+  }
+}
+
+.mod-cont-cpyrght {
+  padding: .625em 0;
+  background-color: $lighterGray;
+  > small {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+.red-text {
+  color: $darkRed;
+}
+
+.green-text {
+  color: $darkGreen;
+}
+
+
+
+.mod-footer-section-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
